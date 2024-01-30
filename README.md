@@ -40,7 +40,7 @@ python car_scrapper.py [-h] [-f DOWNLOAD_FROM] [-t DOWNLOAD_TO] [-tpe] [-w WORKE
 - `-tpe`, `--futures`: Use threads to download ads (works only with -proxy-file and -isp arguments so far | could work better with fast proxies, haven't tried it yet).
 - `-w`, `--workers`: Specify the number of workers (threads) for futures download (default: 4 | DO NOT USE more than 10 workers, could cause denial of service).
 - `-s`, `--store-mode`: Choose whether ads should be downloaded as a single file or in bulk (default: single).
-- `-isp`, `--isp-network`: Choose Mobile-Network-Operator network for ads download (requires Android device connected in adb mode, do not forget to toggle to mobile data).
+- `-isp`, `--isp-network`: Choose Mobile-Network-Operator network for ads download | use more than 100 ads in order to work properly (requires Android device connected in adb mode, do not forget to toggle to mobile data).
 - `-hd`, `--headers`: Generate user-agent headers.
 - `-p`, `--proxy`: Define a proxy (e.g., `socks5://proxy:port`, default: None).
 - `-apf`, `--auto-proxy-file`: Get recent alive HTTP proxies (special thx to TheSpeedX)
